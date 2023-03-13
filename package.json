@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "p4": "dead-server"
   },
   "keywords": [],
   "author": "Edvinas <edvingvozdovic@gmail.com> (https://github.com/EdvinGV)",

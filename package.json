@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "p5": "dead-server"
+    "p7": "dead-server"
   },
   "keywords": [],
   "author": "Edvinas <edvingvozdovic@gmail.com> (https://github.com/EdvinGV)",

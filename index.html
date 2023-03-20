@@ -6,123 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="./main.css">
 
-    <style>
-        body {
-            margin: 0;
-        }
-
-        header,
-        main,
-        footer {
-            width: 800px;
-            margin-left: calc(50% - 400px);
-        }
-
-        header {
-            margin-top: 20px;
-            margin-bottom: 40px;
-            display: flex;
-            gap: 20px;
-            align-items: center;
-            justify-content: space-between;
-            background-color: rgb(249, 251, 251);
-
-        }
-
-        header>img {
-            background-color: rgb(255, 255, 255);
-            height: 50px;
-            width: 100px;
-            object-fit: contain;
-            object-position: left;
-        }
-
-        nav {
-
-            display: flex;
-            gap: 30px;
-        }
-
-        a {
-            font-family: Arial, Helvetica, sans-serif;
-            margin-right: 20px;
-            font-size: 20px;
-            text-decoration: none;
-            color: black;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        nav>a:first-child {
-            margin-left: 0;
-        }
-
-        nav>a:last-child {
-            margin-right: 0;
-        }
-
-
-        main {
-            margin-bottom: 40px;
-            gap: 20px;
-            display: flex;
-            background-color: rgb(12, 154, 154);
-
-        }
-
-        div {
-            width: 40%;
-        }
-
-        h1 {}
-
-        p {}
-
-        a {}
-
-        main>img {
-            width: 60%;
-        }
-
-
-
-        footer {
-            background-color: rgb(33, 35, 168);
-
-        }
-    </style>
 
 </head>
 
 
-
 <body>
+    <section class="bg-image">
+        <header class="bodyparts">
+            <img class="logo" src="clay-logo.png" alt="Logo">
+            <nav>
+                <a class="nvg" href="#">About</a>
+                <a class="nvg" href="#">Portfolio</a>
+                <a class="nvg" href="#">Jobs</a>
+                <a class="nvg" href="#">Contact</a>
+            </nav>
+        </header>
+        <main class="bodyparts">
+            <div>
+                <h1>404 <br> <span> Lost in space </span> </h1>
+                <p>You have reached the ecce of the universe
+                    The page you requested could not be found
+                    Don't worry and return to the previous page.</p>
+                <a href="">Go home</a>
+                <a href="">Back</a>
+            </div>
+            <img src="Character.png" alt="Astronaut">
+        </main>
+        <footer class="bodyparts">
+            <div>
+                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
 
-    <header>
-        <img src="clay-logo.png" alt="">
-        <nav>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Jobs</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
-    <main style="">
-        <div>
-            <h1>404 Lost in space</h1>
-            <p>You have reached the ecce of the universe
-                The page you requested could not be found
-                Don't worry and return to the previous page</p>
-            <a href="">Go home</a>
-            <a href="">Back</a>
-
-        </div>
-        <img src="#" alt="Astronaut">
-    </main>
-    <footer style="">FOOTER</footer>
+            </div>
+            <p>&copy; 2023 - All rights reserved</p>
+        </footer>
+    </section>
 </body>
 
 </html>
